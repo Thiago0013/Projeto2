@@ -6,6 +6,12 @@
     padding: 0px;
     font-family:'Chivo Mono', monospace; ;
 }
+body{
+    background-image: url('https://rare-gallery.com/mocahbig/80256-clash-of-clans-2021-games-games-hd-4k-5k-artstation.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+}
 header{
     background-color: rgb(20, 20, 20);
     padding: 50px;
@@ -40,6 +46,7 @@ main{
     padding: 20px;
     text-align: justify;
     box-shadow: -0.3px 1px 2px 1px rgba(0, 0, 0, 0.37);
+    background-color: aliceblue;
     margin:auto;
     min-width: 320px;
     max-width: 1400px;
