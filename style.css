@@ -9,8 +9,8 @@
 body{
     background-image: url('https://rare-gallery.com/mocahbig/80256-clash-of-clans-2021-games-games-hd-4k-5k-artstation.jpg');
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center center;
+    background-size: cover;
+    background-position: center top;
 }
 header{
     background-color: rgb(20, 20, 20);
