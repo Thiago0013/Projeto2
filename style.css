@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@400;800&display=swap');
+
+*{
+    
+    margin: 0px;
+    padding: 0px;
+    font-family:'Chivo Mono', monospace; ;
+}
+header{
+    background-color: rgb(20, 20, 20);
+    padding: 50px;
+    
+}
+header  h1{
+    color: rgb(248, 0, 0);
+    font-weight: bold;
+    text-align: center;
+}
+nav{
+    background-color: rgb(20, 20, 20);
+    padding: 15px;
+    box-shadow: 0px 1px 3px black;
+}
+
+nav a{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: rgb(207, 207, 1);
+    border-radius: 20px;
+    padding: 15px;
+    transition-duration: .2;
+}
+nav a:hover{
+    background-color:rgb(82, 82, 0);
+    
+}
+main{
+    padding: 20px;
+    text-align: justify;
+    box-shadow: -0.3px 1px 2px 1px rgba(0, 0, 0, 0.37);
+    margin:auto;
+    min-width: 320px;
+    max-width: 1400px;
+    text-indent: 20px;
+    line-height: 2;
+}
+main h1{
+    background-image: linear-gradient(to right, rgb(255, 82, 82), transparent);
+    border-radius: 30px;
+    font-size: 32px;
+}
+main p {
+    font-size:21px;
+}
+main a{
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+}
+main a::after{
+    content:'\1F517';
+}
