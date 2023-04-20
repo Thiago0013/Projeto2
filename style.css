@@ -52,12 +52,12 @@ main{
     background-color: aliceblue;
     margin:auto;
     min-width: 320px;
-    max-width: 1400px;
+    max-width: 1300px;
     text-indent: 20px;
     line-height: 2;
 }
 main h1{
-    background-image: linear-gradient(to right, rgb(255, 82, 82), transparent);
+    background-image: linear-gradient(to right, rgba(5, 5, 5, 0.726), transparent);
     border-radius: 30px;
     font-size: 32px;
 }
@@ -75,9 +75,40 @@ main a::after{
     
     content:'\1F517';
 }
-main strong{
-
-}
 main strong.data{
     text-decoration:underline;
+}
+footer#container{
+    
+    position: relative;
+    height: 100px;
+    background-color: black;
+}
+footer > div#conteudo > a > img.instagram{
+    position: absolute;
+    top:20% ;
+    left: 15%;
+    display: inline-block;
+    height: 40px;
+}
+footer > div#conteudo > a > img.youtube{
+    position: absolute;
+    top:20% ;
+    left: 39%;
+    display: inline-block;
+    height: 40px;
+}
+footer > div#conteudo > a > img.discord{
+    position: absolute;
+    top:20% ;
+    left: 60%;
+    display: inline-block;
+    height: 40px;
+}
+footer > div#conteudo > a > img.twitter{
+    position: absolute;
+    top:10% ;
+    left: 80%;
+    display: inline-block;
+    height: 70px;
 }
