@@ -86,21 +86,21 @@ footer#container{
 footer > div#conteudo > a > img.instagram{
     position: absolute;
     top:20% ;
-    left: 22%;
+    left: 20%;
     display: inline-block;
     height: 40px;
 }
 footer > div#conteudo > a > img.youtube{
     position: absolute;
     top:20% ;
-    left: 52%;
+    left: 40%;
     display: inline-block;
     height: 43px;
 }
 footer > div#conteudo > a > img.discord{
     position: absolute;
     top:20% ;
-    left: 72%;
+    left: 70%;
     display: inline-block;
     height: 40px;
 }
