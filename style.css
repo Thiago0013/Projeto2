@@ -51,7 +51,7 @@ main{
     box-shadow: -0.3px 1px 2px 1px rgba(0, 0, 0, 0.37);
     background-color: aliceblue;
     margin:auto;
-    min-width: 320px;
+    min-width: 300px;
     max-width: 1300px;
     text-indent: 20px;
     line-height: 2;
@@ -87,28 +87,22 @@ footer#container{
 footer > div#conteudo > a > img.instagram{
     position: absolute;
     top:20% ;
-    left: 15%;
+    left: 17%;
     display: inline-block;
     height: 40px;
 }
 footer > div#conteudo > a > img.youtube{
     position: absolute;
     top:20% ;
-    left: 39%;
+    left: 44%;
     display: inline-block;
-    height: 40px;
+    height: 43px;
 }
 footer > div#conteudo > a > img.discord{
     position: absolute;
     top:20% ;
-    left: 60%;
+    left: 70%;
     display: inline-block;
     height: 40px;
 }
-footer > div#conteudo > a > img.twitter{
-    position: absolute;
-    top:10% ;
-    left: 80%;
-    display: inline-block;
-    height: 70px;
-}
+
